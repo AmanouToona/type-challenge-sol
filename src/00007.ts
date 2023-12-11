@@ -7,9 +7,8 @@ interface Todo {
 }
 
 type MyReadonly<T> = {
-    readonly [Properties in keyof T as Properties]: T[Properties]
+    readonly [Properties in keyof T]: T[Properties]
 }
-
 
 
 const todo: MyReadonly<Todo> = {
