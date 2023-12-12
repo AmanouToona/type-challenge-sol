@@ -7,8 +7,8 @@ interface Todo {
 /* _____________ ここにコードを記入 _____________ */
 
 
-type MyPick<T, K> = {
-    [Properties in keyof T]: Properties extends K ? T[Properties] : never
+type MyPick<T, K extends keyof T> = {
+    [Properties in K]: Properties extends keyof T ? T[Properties] : never
 }
 
 type TodoPreview = MyPick<Todo, "title" | "completed">;
