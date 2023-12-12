@@ -23,3 +23,10 @@ npm install @type-challenges/utils  # 要らないかも?
 ### 000007
 
 [Key Remapping via as](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
+
+### 000011
+
+```ts
+tuple[number]
+```
+で tuple の内容を union型で取得できる
