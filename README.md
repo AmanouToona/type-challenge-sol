@@ -24,6 +24,11 @@ npm install @type-challenges/utils  # 要らないかも?
 
 [Key Remapping via as](https://www.typescriptlang.org/docs/handbook/2/mapped-types.html#key-remapping-via-as)
 
+### 00016
+
+`infer` を使う。  
+`infer` の位置に注意
+
 ### 000011
 
 ```ts
