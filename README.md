@@ -35,3 +35,7 @@ npm install @type-challenges/utils  # 要らないかも?
 tuple[number]
 ```
 で tuple の内容を union型で取得できる
+
+### 00002
+
+`infer` の位置が分からなかった  
