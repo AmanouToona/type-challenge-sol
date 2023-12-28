@@ -31,7 +31,7 @@ npm install @type-challenges/utils  # 要らないかも?
 
 ### 000011
 
-```ts
+```**ts**
 tuple[number]
 ```
 で tuple の内容を union型で取得できる
@@ -43,3 +43,8 @@ tuple[number]
 ### 00599
 
 三項演算子は連続できたんだ
+
+### 00645
+
+ユーティリティ型の知識が必要  
+[サバイバルTypeScript](https://typescriptbook.jp/reference/type-reuse/utility-types)参考
