@@ -2,6 +2,6 @@
 
 type Test = "123";
 
-type StringToUnion<T> = T extends [infer R, ...(infer S extend string)] ? R : never;
+type StringToUnion<T extends string> = T extends `${infer F}${infer R}` ? F | StringToUnion<R> : never
 
 type Result = StringToUnion<Test>; // expected to be "1" | "2" | "3"

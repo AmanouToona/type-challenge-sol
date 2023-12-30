@@ -1,4 +1,4 @@
-# 
+#
 
 ## 環境構築
 
@@ -34,11 +34,12 @@ npm install @type-challenges/utils  # 要らないかも?
 ```**ts**
 tuple[number]
 ```
-で tuple の内容を union型で取得できる
+
+で tuple の内容を union 型で取得できる
 
 ### 00002
 
-`infer` の位置が分からなかった  
+`infer` の位置が分からなかった
 
 ### 00599
 
@@ -47,4 +48,9 @@ tuple[number]
 ### 00645
 
 ユーティリティ型の知識が必要  
-[サバイバルTypeScript](https://typescriptbook.jp/reference/type-reuse/utility-types)参考
+[サバイバル TypeScript](https://typescriptbook.jp/reference/type-reuse/utility-types)参考
+
+### 00531
+
+なぜ、infer F が 1 文字に推定されるのかがわからない。 {infer F}{infer R} ならどちらが何に推定されても大丈夫に感じる。  
+おそらく仕様がある。
